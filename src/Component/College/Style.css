@@ -9,23 +9,25 @@ body {
   flex-wrap: wrap; */
   justify-content: center;
   /* align-items: center; */
-  margin-top: 13px;
 }
 
 #Parent_box {
   /* border: 2px solid red; */
+  display: flex;
+  text-align: center;
+  padding-top: 1.6rem;
   width: 32.5rem;
-  height: 16.7rem;
+  height: 18rem;
 }
 
 #child {
   border: 0px solid blue;
   width: 32rem;
-  height: 15rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   /* background: rgba(0, 0, 0, 0.5); */
 }
+
 
 #child legend {
   border: 1px solid black;
